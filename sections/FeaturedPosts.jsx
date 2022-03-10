@@ -36,10 +36,13 @@ const FeaturedPosts = () => {
   }, []);
 
   const customLeftArrow = (
-    <div className="absolute arrow-btn left-0 text-center py-3 cursor-pointer bg-pink-600 rounded-full">
+    <div
+      className="absolute arrow-btn text-center py-3 cursor-pointer bg-pink-600 rounded-full"
+      style={{ left: "0" }}
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-6 w-6 text-white w-full"
+        className="h-6 w-full text-white"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -55,10 +58,13 @@ const FeaturedPosts = () => {
   );
 
   const customRightArrow = (
-    <div className="absolute arrow-btn right-0 text-center py-3 cursor-pointer bg-pink-600 rounded-full">
+    <div
+      className="absolute arrow-btn text-center py-3 cursor-pointer bg-pink-600 rounded-full"
+      style={{ right: "0" }}
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-6 w-6 text-white w-full"
+        className="h-6 w-full text-white"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
